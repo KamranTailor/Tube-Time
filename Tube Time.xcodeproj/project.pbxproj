@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5027BD12B8B641400FF76CC /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5027BD02B8B641400FF76CC /* Sources.swift */; };
+		B5027BD32B8B641900FF76CC /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5027BD22B8B641900FF76CC /* Version.swift */; };
+		B5044D6B2CC51D1E000B58A2 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5044D6A2CC51D1E000B58A2 /* Notice.swift */; };
+		B51369F22CB2C07800842195 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51369F12CB2C07800842195 /* Status.swift */; };
+		B51F1B252CB2FDEE00329FDD /* StatusDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F1B242CB2FDEE00329FDD /* StatusDecode.swift */; };
+		B51F1B272CB30A3700329FDD /* TFLlineBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F1B262CB30A3700329FDD /* TFLlineBoxView.swift */; };
+		B521BC592C9C9B3000750555 /* NextArrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521BC582C9C9B3000750555 /* NextArrival.swift */; };
+		B54ED2312CB6F6A7004052DC /* CrowdingPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54ED2302CB6F6A6004052DC /* CrowdingPerson.swift */; };
+		B557E4322B82498F009E3CFF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557E4312B82498F009E3CFF /* LocationManager.swift */; };
+		B557E4362B82621B009E3CFF /* Decode-loc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557E4352B82621B009E3CFF /* Decode-loc.swift */; };
+		B557E43B2B826A82009E3CFF /* ViewStoppoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557E43A2B826A82009E3CFF /* ViewStoppoint.swift */; };
+		B557E43E2B827801009E3CFF /* Stoppoint-Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557E43D2B827801009E3CFF /* Stoppoint-Decode.swift */; };
+		B55C5EAA2CBBDF7900C76A68 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C5EA92CBBDF7900C76A68 /* StationView.swift */; };
+		B55C5EB12CBBE94E00C76A68 /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C5EB02CBBE94E00C76A68 /* Stations.swift */; };
+		B56F4F1E2CBBCE340050CCD3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56F4F1D2CBBCE340050CCD3 /* LoginView.swift */; };
+		B57600E42CBD986100EACC32 /* LocalNearbyStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57600E32CBD986100EACC32 /* LocalNearbyStations.swift */; };
+		B57600E62CBD9A3700EACC32 /* LocalNearbyBusStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57600E52CBD9A3700EACC32 /* LocalNearbyBusStops.swift */; };
+		B58603FB2CBA78B00010F015 /* TotalStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58603FA2CBA78B00010F015 /* TotalStations.swift */; };
+		B58603FD2CBA78BC0010F015 /* OperatingTrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58603FC2CBA78BC0010F015 /* OperatingTrains.swift */; };
+		B58603FF2CBA89AF0010F015 /* StationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58603FE2CBA89AF0010F015 /* StationCard.swift */; };
+		B58604012CBAE6B60010F015 /* LineSmallText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58604002CBAE6B60010F015 /* LineSmallText.swift */; };
+		B58604052CBAEC700010F015 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58604042CBAEC700010F015 /* Directions.swift */; };
+		B58604072CBAEC770010F015 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58604062CBAEC770010F015 /* Search.swift */; };
+		B5A111752CC505F100604F56 /* LoginResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A111742CC505F100604F56 /* LoginResponce.swift */; };
+		B5A111772CC50B6400604F56 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A111762CC50B6400604F56 /* RootView.swift */; };
+		B5AA90992CB526E80096DCCB /* LineStatusDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA90982CB526E80096DCCB /* LineStatusDecode.swift */; };
+		B5AEF05D2CC5148000D0FF0B /* SighnUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEF05C2CC5148000D0FF0B /* SighnUp.swift */; };
+		B5B627DA2C145E3A00EA8135 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B627D92C145E3A00EA8135 /* SwiftUIView.swift */; };
+		B5C4A3A12CB5A91A00EAC1B2 /* lineColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4A3A02CB5A91A00EAC1B2 /* lineColour.swift */; };
+		B5D1AA502B8A10090064EA02 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1AA4F2B8A10090064EA02 /* MapView.swift */; };
+		B5D3E05A2B813DB50021C955 /* Tube_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E0592B813DB50021C955 /* Tube_TimeApp.swift */; };
+		B5D3E05C2B813DB50021C955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E05B2B813DB50021C955 /* ContentView.swift */; };
+		B5D3E05E2B813DB80021C955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D3E05D2B813DB80021C955 /* Assets.xcassets */; };
+		B5D3E0612B813DB80021C955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D3E0602B813DB80021C955 /* Preview Assets.xcassets */; };
+		B5D3E06B2B8140290021C955 /* Linesinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E06A2B8140290021C955 /* Linesinfo.swift */; };
+		B5D3E06E2B8140730021C955 /* TflButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E06D2B8140730021C955 /* TflButton.swift */; };
+		B5D3E0702B8140870021C955 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E06F2B8140870021C955 /* Decode.swift */; };
+		B5D3E0752B81412B0021C955 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E0742B81412B0021C955 /* Settings.swift */; };
+		B5D3E07A2B81419A0021C955 /* Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3E0792B81419A0021C955 /* Local.swift */; };
+		B5D3E07C2B8142B60021C955 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D3E07B2B8142B60021C955 /* Launch Screen.storyboard */; };
+		B5E1BF8D2CB42FD9009FAD0F /* ViewLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E1BF8C2CB42FD9009FAD0F /* ViewLineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5027BD02B8B641400FF76CC /* Sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
+		B5027BD22B8B641900FF76CC /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		B5044D6A2CC51D1E000B58A2 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		B51369F12CB2C07800842195 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		B51F1B242CB2FDEE00329FDD /* StatusDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDecode.swift; sourceTree = "<group>"; };
+		B51F1B262CB30A3700329FDD /* TFLlineBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLlineBoxView.swift; sourceTree = "<group>"; };
+		B521BC582C9C9B3000750555 /* NextArrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextArrival.swift; sourceTree = "<group>"; };
+		B54ED2302CB6F6A6004052DC /* CrowdingPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdingPerson.swift; sourceTree = "<group>"; };
+		B557E4312B82498F009E3CFF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B557E4352B82621B009E3CFF /* Decode-loc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decode-loc.swift"; sourceTree = "<group>"; };
+		B557E43A2B826A82009E3CFF /* ViewStoppoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStoppoint.swift; sourceTree = "<group>"; };
+		B557E43D2B827801009E3CFF /* Stoppoint-Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stoppoint-Decode.swift"; sourceTree = "<group>"; };
+		B55C5EA92CBBDF7900C76A68 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		B55C5EB02CBBE94E00C76A68 /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		B56F4F1D2CBBCE340050CCD3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B57600E32CBD986100EACC32 /* LocalNearbyStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNearbyStations.swift; sourceTree = "<group>"; };
+		B57600E52CBD9A3700EACC32 /* LocalNearbyBusStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNearbyBusStops.swift; sourceTree = "<group>"; };
+		B58603FA2CBA78B00010F015 /* TotalStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalStations.swift; sourceTree = "<group>"; };
+		B58603FC2CBA78BC0010F015 /* OperatingTrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingTrains.swift; sourceTree = "<group>"; };
+		B58603FE2CBA89AF0010F015 /* StationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCard.swift; sourceTree = "<group>"; };
+		B58604002CBAE6B60010F015 /* LineSmallText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSmallText.swift; sourceTree = "<group>"; };
+		B58604042CBAEC700010F015 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		B58604062CBAEC770010F015 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		B5A111742CC505F100604F56 /* LoginResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponce.swift; sourceTree = "<group>"; };
+		B5A111762CC50B6400604F56 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B5AA90982CB526E80096DCCB /* LineStatusDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStatusDecode.swift; sourceTree = "<group>"; };
+		B5AEF05C2CC5148000D0FF0B /* SighnUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SighnUp.swift; sourceTree = "<group>"; };
+		B5B627D92C145E3A00EA8135 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B5C4A3A02CB5A91A00EAC1B2 /* lineColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineColour.swift; sourceTree = "<group>"; };
+		B5D1AA4F2B8A10090064EA02 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B5D3E0562B813DB50021C955 /* Tube Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tube Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D3E0592B813DB50021C955 /* Tube_TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tube_TimeApp.swift; sourceTree = "<group>"; };
+		B5D3E05B2B813DB50021C955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5D3E05D2B813DB80021C955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D3E0602B813DB80021C955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5D3E06A2B8140290021C955 /* Linesinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linesinfo.swift; sourceTree = "<group>"; };
+		B5D3E06D2B8140730021C955 /* TflButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TflButton.swift; sourceTree = "<group>"; };
+		B5D3E06F2B8140870021C955 /* Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
+		B5D3E0742B81412B0021C955 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B5D3E0792B81419A0021C955 /* Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local.swift; sourceTree = "<group>"; };
+		B5D3E07B2B8142B60021C955 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B5E1BF8C2CB42FD9009FAD0F /* ViewLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D3E0532B813DB50021C955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B557E43C2B8277F0009E3CFF /* Stoppoint */ = {
+			isa = PBXGroup;
+			children = (
+				B557E43A2B826A82009E3CFF /* ViewStoppoint.swift */,
+				B557E43D2B827801009E3CFF /* Stoppoint-Decode.swift */,
+				B5B627D92C145E3A00EA8135 /* SwiftUIView.swift */,
+			);
+			path = Stoppoint;
+			sourceTree = "<group>";
+		};
+		B55C5EA62CBBDE5E00C76A68 /* MutiTab */ = {
+			isa = PBXGroup;
+			children = (
+				B55C5EA92CBBDF7900C76A68 /* StationView.swift */,
+			);
+			path = MutiTab;
+			sourceTree = "<group>";
+		};
+		B55C5EAF2CBBE93700C76A68 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B55C5EB02CBBE94E00C76A68 /* Stations.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B57600E02CBD96B500EACC32 /* Stops */ = {
+			isa = PBXGroup;
+			children = (
+				B57600E32CBD986100EACC32 /* LocalNearbyStations.swift */,
+				B57600E52CBD9A3700EACC32 /* LocalNearbyBusStops.swift */,
+			);
+			path = Stops;
+			sourceTree = "<group>";
+		};
+		B58603F72CBA786A0010F015 /* TotalStations */ = {
+			isa = PBXGroup;
+			children = (
+				B58603FA2CBA78B00010F015 /* TotalStations.swift */,
+				B58603FE2CBA89AF0010F015 /* StationCard.swift */,
+				B58604002CBAE6B60010F015 /* LineSmallText.swift */,
+			);
+			path = TotalStations;
+			sourceTree = "<group>";
+		};
+		B58603F92CBA788F0010F015 /* OperatingTrains */ = {
+			isa = PBXGroup;
+			children = (
+				B58603FC2CBA78BC0010F015 /* OperatingTrains.swift */,
+			);
+			path = OperatingTrains;
+			sourceTree = "<group>";
+		};
+		B58604022CBAEC440010F015 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B58604062CBAEC770010F015 /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B58604032CBAEC590010F015 /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+				B58604042CBAEC700010F015 /* Directions.swift */,
+			);
+			path = Directions;
+			sourceTree = "<group>";
+		};
+		B5A111732CC505D100604F56 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B56F4F1D2CBBCE340050CCD3 /* LoginView.swift */,
+				B5A111742CC505F100604F56 /* LoginResponce.swift */,
+				B5AEF05C2CC5148000D0FF0B /* SighnUp.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B5C4A39D2CB5A8E300EAC1B2 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				B51F1B262CB30A3700329FDD /* TFLlineBoxView.swift */,
+				B521BC582C9C9B3000750555 /* NextArrival.swift */,
+				B5D3E06D2B8140730021C955 /* TflButton.swift */,
+				B54ED2302CB6F6A6004052DC /* CrowdingPerson.swift */,
+				B5044D6A2CC51D1E000B58A2 /* Notice.swift */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		B5C4A39E2CB5A8F600EAC1B2 /* Decode */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3E06F2B8140870021C955 /* Decode.swift */,
+				B51F1B242CB2FDEE00329FDD /* StatusDecode.swift */,
+				B5AA90982CB526E80096DCCB /* LineStatusDecode.swift */,
+			);
+			path = Decode;
+			sourceTree = "<group>";
+		};
+		B5C4A39F2CB5A90700EAC1B2 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4A3A02CB5A91A00EAC1B2 /* lineColour.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		B5D3E04D2B813DB50021C955 = {
+			isa = PBXGroup;
+			children = (
+				B5D3E07B2B8142B60021C955 /* Launch Screen.storyboard */,
+				B5D3E0582B813DB50021C955 /* Tube Time */,
+				B5D3E0572B813DB50021C955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D3E0572B813DB50021C955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3E0562B813DB50021C955 /* Tube Time.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D3E0582B813DB50021C955 /* Tube Time */ = {
+			isa = PBXGroup;
+			children = (
+				B5A111732CC505D100604F56 /* Login */,
+				B55C5EAF2CBBE93700C76A68 /* src */,
+				B55C5EA62CBBDE5E00C76A68 /* MutiTab */,
+				B58604032CBAEC590010F015 /* Directions */,
+				B58604022CBAEC440010F015 /* Search */,
+				B5D3E0782B8141910021C955 /* Local */,
+				B5D3E0732B81411A0021C955 /* Settings  */,
+				B5D3E0592B813DB50021C955 /* Tube_TimeApp.swift */,
+				B557E4312B82498F009E3CFF /* LocationManager.swift */,
+				B5D3E05B2B813DB50021C955 /* ContentView.swift */,
+				B5D3E0672B813FE60021C955 /* Status */,
+				B5D3E05D2B813DB80021C955 /* Assets.xcassets */,
+				B5D3E05F2B813DB80021C955 /* Preview Content */,
+				B5A111762CC50B6400604F56 /* RootView.swift */,
+			);
+			path = "Tube Time";
+			sourceTree = "<group>";
+		};
+		B5D3E05F2B813DB80021C955 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3E0602B813DB80021C955 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5D3E0672B813FE60021C955 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				B58603F92CBA788F0010F015 /* OperatingTrains */,
+				B58603F72CBA786A0010F015 /* TotalStations */,
+				B5E1BF8C2CB42FD9009FAD0F /* ViewLineView.swift */,
+				B51369F12CB2C07800842195 /* Status.swift */,
+				B5D3E06A2B8140290021C955 /* Linesinfo.swift */,
+				B5D3E06C2B8140430021C955 /* Assets */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		B5D3E06C2B8140430021C955 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4A39F2CB5A90700EAC1B2 /* Functions */,
+				B5C4A39E2CB5A8F600EAC1B2 /* Decode */,
+				B5C4A39D2CB5A8E300EAC1B2 /* Display */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B5D3E0732B81411A0021C955 /* Settings  */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3E0742B81412B0021C955 /* Settings.swift */,
+				B5027BD02B8B641400FF76CC /* Sources.swift */,
+				B5027BD22B8B641900FF76CC /* Version.swift */,
+			);
+			path = "Settings ";
+			sourceTree = "<group>";
+		};
+		B5D3E0782B8141910021C955 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				B57600E02CBD96B500EACC32 /* Stops */,
+				B5D1AA4F2B8A10090064EA02 /* MapView.swift */,
+				B557E43C2B8277F0009E3CFF /* Stoppoint */,
+				B5D3E0792B81419A0021C955 /* Local.swift */,
+				B557E4352B82621B009E3CFF /* Decode-loc.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D3E0552B813DB50021C955 /* Tube Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D3E0642B813DB80021C955 /* Build configuration list for PBXNativeTarget "Tube Time" */;
+			buildPhases = (
+				B5D3E0522B813DB50021C955 /* Sources */,
+				B5D3E0532B813DB50021C955 /* Frameworks */,
+				B5D3E0542B813DB50021C955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tube Time";
+			productName = "Tube Time";
+			productReference = B5D3E0562B813DB50021C955 /* Tube Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D3E04E2B813DB50021C955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B5D3E0552B813DB50021C955 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B5D3E0512B813DB50021C955 /* Build configuration list for PBXProject "Tube Time" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D3E04D2B813DB50021C955;
+			productRefGroup = B5D3E0572B813DB50021C955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D3E0552B813DB50021C955 /* Tube Time */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D3E0542B813DB50021C955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D3E07C2B8142B60021C955 /* Launch Screen.storyboard in Resources */,
+				B5D3E0612B813DB80021C955 /* Preview Assets.xcassets in Resources */,
+				B5D3E05E2B813DB80021C955 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D3E0522B813DB50021C955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A111752CC505F100604F56 /* LoginResponce.swift in Sources */,
+				B5D3E05C2B813DB50021C955 /* ContentView.swift in Sources */,
+				B51F1B252CB2FDEE00329FDD /* StatusDecode.swift in Sources */,
+				B5027BD32B8B641900FF76CC /* Version.swift in Sources */,
+				B5B627DA2C145E3A00EA8135 /* SwiftUIView.swift in Sources */,
+				B51369F22CB2C07800842195 /* Status.swift in Sources */,
+				B5D3E07A2B81419A0021C955 /* Local.swift in Sources */,
+				B557E4362B82621B009E3CFF /* Decode-loc.swift in Sources */,
+				B5C4A3A12CB5A91A00EAC1B2 /* lineColour.swift in Sources */,
+				B58603FF2CBA89AF0010F015 /* StationCard.swift in Sources */,
+				B5AEF05D2CC5148000D0FF0B /* SighnUp.swift in Sources */,
+				B57600E42CBD986100EACC32 /* LocalNearbyStations.swift in Sources */,
+				B58604012CBAE6B60010F015 /* LineSmallText.swift in Sources */,
+				B57600E62CBD9A3700EACC32 /* LocalNearbyBusStops.swift in Sources */,
+				B5D3E0702B8140870021C955 /* Decode.swift in Sources */,
+				B5D1AA502B8A10090064EA02 /* MapView.swift in Sources */,
+				B58604072CBAEC770010F015 /* Search.swift in Sources */,
+				B5044D6B2CC51D1E000B58A2 /* Notice.swift in Sources */,
+				B557E43B2B826A82009E3CFF /* ViewStoppoint.swift in Sources */,
+				B5AA90992CB526E80096DCCB /* LineStatusDecode.swift in Sources */,
+				B54ED2312CB6F6A7004052DC /* CrowdingPerson.swift in Sources */,
+				B58604052CBAEC700010F015 /* Directions.swift in Sources */,
+				B5D3E06B2B8140290021C955 /* Linesinfo.swift in Sources */,
+				B56F4F1E2CBBCE340050CCD3 /* LoginView.swift in Sources */,
+				B5E1BF8D2CB42FD9009FAD0F /* ViewLineView.swift in Sources */,
+				B58603FB2CBA78B00010F015 /* TotalStations.swift in Sources */,
+				B557E43E2B827801009E3CFF /* Stoppoint-Decode.swift in Sources */,
+				B5027BD12B8B641400FF76CC /* Sources.swift in Sources */,
+				B5D3E05A2B813DB50021C955 /* Tube_TimeApp.swift in Sources */,
+				B5D3E0752B81412B0021C955 /* Settings.swift in Sources */,
+				B5D3E06E2B8140730021C955 /* TflButton.swift in Sources */,
+				B51F1B272CB30A3700329FDD /* TFLlineBoxView.swift in Sources */,
+				B55C5EAA2CBBDF7900C76A68 /* StationView.swift in Sources */,
+				B521BC592C9C9B3000750555 /* NextArrival.swift in Sources */,
+				B5A111772CC50B6400604F56 /* RootView.swift in Sources */,
+				B58603FD2CBA78BC0010F015 /* OperatingTrains.swift in Sources */,
+				B55C5EB12CBBE94E00C76A68 /* Stations.swift in Sources */,
+				B557E4322B82498F009E3CFF /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5D3E0622B813DB80021C955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D3E0632B813DB80021C955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D3E0652B813DB80021C955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tube Time/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AMFUNBNPM;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tube Time";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To find the closest Bus Stop’s/ Train Station’s ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To find the closest Bus Stop’s/ Train Station’s ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamran.Tube-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D3E0662B813DB80021C955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon2;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tube Time/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AMFUNBNPM;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tube Time";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To find the closest Bus Stop’s/ Train Station’s ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To find the closest Bus Stop’s/ Train Station’s ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamran.Tube-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D3E0512B813DB50021C955 /* Build configuration list for PBXProject "Tube Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3E0622B813DB80021C955 /* Debug */,
+				B5D3E0632B813DB80021C955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D3E0642B813DB80021C955 /* Build configuration list for PBXNativeTarget "Tube Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3E0652B813DB80021C955 /* Debug */,
+				B5D3E0662B813DB80021C955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D3E04E2B813DB50021C955 /* Project object */;
+}
